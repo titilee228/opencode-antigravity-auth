@@ -6,7 +6,27 @@
 
 Enable Opencode to authenticate against **Antigravity** (Google's IDE) via OAuth so you can use Antigravity rate limits and access models like `gemini-3-pro` and `claude-opus-4-5-thinking` with your Google credentials.
 
-Beginner-friendly Chinese guide: [docs/BEGINNER_GUIDE_ZH.md](docs/BEGINNER_GUIDE_ZH.md)
+## Quick Start for Future Me (ZH)
+
+If you open this repo months later and forget what it does, read this first:
+
+- This repo is an **Opencode plugin**, not the main app
+- Its job is to let **Opencode log in with Google / Antigravity**
+- After login, Opencode can use models like **Gemini** and **Claude**
+- If you still use Opencode, this repo is still useful
+
+Chinese beginner guide:
+
+- [小白说明 / Beginner Guide in Chinese](docs/BEGINNER_GUIDE_ZH.md)
+
+Super short recovery path:
+
+1. Install `Opencode`
+2. Add `opencode-antigravity-auth@beta` to `opencode.json`
+3. Run `opencode auth login`
+4. Pick a configured Google / Antigravity model in Opencode
+
+## English Overview
 
 ## What you get
 
