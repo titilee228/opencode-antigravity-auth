@@ -6,6 +6,8 @@
 
 Enable Opencode to authenticate against **Antigravity** (Google's IDE) via OAuth so you can use Antigravity rate limits and access models like `gemini-3-pro` and `claude-opus-4-5-thinking` with your Google credentials.
 
+Beginner-friendly Chinese guide: [docs/BEGINNER_GUIDE_ZH.md](docs/BEGINNER_GUIDE_ZH.md)
+
 ## What you get
 
 - **Google OAuth sign-in** with automatic token refresh via `opencode auth login`
